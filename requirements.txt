@@ -1,0 +1,5 @@
+websockets>=12.0
+deepgram-sdk>=3.2.7
+webrtcvad==2.0.10
+groq>=0.9.0
+requests>=2.31.0
