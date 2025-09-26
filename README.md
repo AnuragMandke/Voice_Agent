@@ -42,15 +42,7 @@ Notes:
 - The server runs with partial keys: missing Deepgram will skip transcription; missing Groq will fail over as configured; missing Cartesia will skip TTS.
 
 ### Setup
-1) (Optional) Activate the provided venv
-
-PowerShell:
-
-```
-.\venv\Scripts\Activate.ps1
-```
-
-2) Install dependencies
+Install dependencies
 
 ```
 pip install -r requirements.txt
