@@ -30,7 +30,7 @@ Python dependencies (installed via `requirements.txt`):
 - websockets, deepgram-sdk, webrtcvad, groq, requests
 
 ### Configuration
-Create a `.env` file at `E:\Voice_Agent\.env` on Windows with:
+Create a `.env` file with:
 
 ```
 DEEPGRAM_API_KEY=your_deepgram_key
@@ -47,13 +47,13 @@ Notes:
 PowerShell:
 
 ```
-E:\Voice_Agent\venv\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 ```
 
 2) Install dependencies
 
 ```
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Running
